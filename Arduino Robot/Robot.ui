@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>724</width>
+    <height>478</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">/* === GLOBAL === */
+QWidget {
+    background-color: #0b1220;
+    color: #d1d5db;
+    font-family: &quot;Segoe UI&quot;;
+}
+
+/* === PANELS === */
+QFrame {
+    background-color: #111827;
+    border: 1px solid #1f2937;
+    border-radius: 1px;
+}
+
+/* === BUTTONS === */
+QPushButton {
+    background-color: #1f2937;
+    border-radius: 1px;
+    padding: 6px;
+    border: 1px solid #374151;
+}
+
+/* Hover */
+QPushButton:hover {
+    background-color: #374151;
+}
+
+/* Click (momentary press) */
+QPushButton:pressed {
+    background-color: #4b5563;
+}
+
+/* Toggle buttons (VERY useful for filters, modes, etc.) */
+QPushButton:checked {
+    background-color: #2563eb;
+    border: 1px solid #3b82f6;
+    color: white;
+}
+
+/* === INPUT === */
+QLineEdit {
+    background-color: #020617;
+    border: 1px solid #1f2937;
+    padding: 6px;
+    border-radius: 1px;
+}
+
+/* === LABELS === */
+QLabel#profit {
+    color: #22c55e;
+    font-weight: bold;
+}
+
+QLabel#loss {
+    color: #ef4444;
+    font-weight: bold;
+}
+
+QLabel#title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #f9fafb;
+}
+
+/* === CHECKBOXES (IMPROVED) === */
+QCheckBox {
+    spacing: 8px;
+    font-size: 14px;
+}
+
+/* Box size */
+QCheckBox::indicator {
+    width: 18px;
+    height: 18px;
+    border-radius: 4px;
+    border: 1px solid #374151;
+    background-color: #020617;
+}
+
+/* Hover effect */
+QCheckBox::indicator:hover {
+    border: 1px solid #3b82f6;
+}
+
+/* Checked state (VERY visible now) */
+QCheckBox::indicator:checked {
+    background-color: #22c55e;
+    border: 1px solid #22c55e;
+}
+
+/* Checked + hover */
+QCheckBox::indicator:checked:hover {
+    background-color: #16a34a;
+}
+
+/* Disabled */
+QCheckBox::indicator:disabled {
+    background-color: #111827;
+    border: 1px solid #1f2937;
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="CameraOutput">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>20</y>
+      <width>591</width>
+      <height>261</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ForwardButton">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>300</y>
+      <width>79</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>W</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="RightButton">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>370</y>
+      <width>79</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>D</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="BackwardsButton">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>370</y>
+      <width>79</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>S</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="LeftButton">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>370</y>
+      <width>79</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>A</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="CameraLeft">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>300</y>
+      <width>79</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Q</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="CameraRight">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>300</y>
+      <width>79</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>E</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>724</width>
+     <height>33</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
