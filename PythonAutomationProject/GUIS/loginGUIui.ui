@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>250</width>
+    <height>170</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">/* Main background */
+QWidget {
+    background-color: #111318;
+    color: #e6e8eb;
+}
+
+/* Buttons */
+QPushButton {
+    background-color: #20232a;
+    color: #dfe2e7;
+    border: 1px solid #30343d;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+QPushButton:hover {
+    background-color: #292d35;
+}
+
+QPushButton:pressed {
+    background-color: #17191f;
+}
+
+/* Text boxes */
+QLineEdit,
+QTextEdit,
+QPlainTextEdit {
+    background-color: #17191f;
+    color: #e6e8eb;
+    border: 1px solid #30343d;
+    border-radius: 5px;
+    padding: 6px;
+}
+
+/* Combo boxes */
+QComboBox {
+    background-color: #17191f;
+    color: #e6e8eb;
+    border: 1px solid #30343d;
+    border-radius: 5px;
+    padding: 6px;
+}
+
+/* Lists */
+QListWidget {
+    background-color: #17191f;
+    color: #e6e8eb;
+    border: 1px solid #30343d;
+}
+
+/* Tables */
+QTableWidget {
+    background-color: #17191f;
+    color: #e6e8eb;
+    border: 1px solid #30343d;
+    gridline-color: #292d35;
+}
+
+/* Table headers */
+QHeaderView::section {
+    background-color: #20232a;
+    color: #aeb3bd;
+    padding: 7px;
+    border: none;
+}
+
+/* Checkboxes */
+QCheckBox {
+    color: #dfe2e7;
+}
+
+/* Spin boxes */
+QSpinBox,
+QDoubleSpinBox {
+    background-color: #17191f;
+    color: #e6e8eb;
+    border: 1px solid #30343d;
+    border-radius: 5px;
+    padding: 6px;
+}
+
+/* Date / time */
+QDateEdit,
+QTimeEdit,
+QDateTimeEdit {
+    background-color: #17191f;
+    color: #e6e8eb;
+    border: 1px solid #30343d;
+    border-radius: 5px;
+    padding: 6px;
+}
+
+/* Group boxes */
+QGroupBox {
+    background-color: #17191f;
+    color: #aeb3bd;
+    border: 1px solid #30343d;
+    border-radius: 6px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+/* Tabs */
+QTabWidget::pane {
+    background-color: #17191f;
+    border: 1px solid #30343d;
+}
+
+QTabBar::tab {
+    background-color: #20232a;
+    color: #aeb3bd;
+    padding: 8px 14px;
+}
+
+QTabBar::tab:selected {
+    background-color: #527fe5;
+    color: white;
+}
+
+QTabBar::tab:hover {
+    background-color: #292d35;
+    color: white;
+}
+
+/* Scroll bars */
+QScrollBar:vertical {
+    background-color: #111318;
+    width: 10px;
+}
+
+QScrollBar::handle:vertical {
+    background-color: #343943;
+    border-radius: 5px;
+}
+
+QScrollBar::handle:vertical:hover {
+    background-color: #527fe5;
+}
+
+/* Menu */
+QMenu {
+    background-color: #191c22;
+    color: #dfe2e7;
+    border: 1px solid #30343d;
+}
+
+QMenu::item {
+    padding: 7px 20px;
+}
+
+QMenu::item:selected {
+    background-color: #29344a;
+    color: white;
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <widget class="QPushButton" name="loginButton">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>90</y>
+      <width>101</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Login</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="registerButton">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>90</y>
+      <width>111</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Register</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="usernameInput">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>231</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="placeholderText">
+     <string>Username</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="passwordInput">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>50</y>
+      <width>231</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="placeholderText">
+     <string>Password</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>250</width>
+     <height>33</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
