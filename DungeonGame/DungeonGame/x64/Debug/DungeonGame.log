@@ -1,0 +1,13 @@
+﻿  DungeonGame.cpp
+C:\Users\raugu\Documents\C++\DungeonGame\DungeonGame.cpp(191,16): error C2039: 'Health': is not a member of 'Player'
+      C:\Users\raugu\Documents\C++\DungeonGame\DungeonGame.cpp(11,7):
+      see declaration of 'Player'
+  
+C:\Users\raugu\Documents\C++\DungeonGame\DungeonGame.cpp(199,16): error C2039: 'Health': is not a member of 'Player'
+      C:\Users\raugu\Documents\C++\DungeonGame\DungeonGame.cpp(11,7):
+      see declaration of 'Player'
+  
+C:\Users\raugu\Documents\C++\DungeonGame\DungeonGame.cpp(207,16): error C2039: 'Health': is not a member of 'Player'
+      C:\Users\raugu\Documents\C++\DungeonGame\DungeonGame.cpp(11,7):
+      see declaration of 'Player'
+  
