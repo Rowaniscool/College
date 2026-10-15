@@ -1,0 +1,7 @@
+﻿  RockPaperScissorMain.cpp
+C:\Users\raugu\Documents\C++\RockPaperScissorMain\RockPaperScissorMain.cpp(14,62): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+C:\Users\raugu\Documents\C++\RockPaperScissorMain\RockPaperScissorMain.cpp(14,62): warning C4267:         with
+C:\Users\raugu\Documents\C++\RockPaperScissorMain\RockPaperScissorMain.cpp(14,62): warning C4267:         [
+C:\Users\raugu\Documents\C++\RockPaperScissorMain\RockPaperScissorMain.cpp(14,62): warning C4267:             _Ty=int
+C:\Users\raugu\Documents\C++\RockPaperScissorMain\RockPaperScissorMain.cpp(14,62): warning C4267:         ]
+  RockPaperScissorMain.vcxproj -> C:\Users\raugu\Documents\C++\RockPaperScissorMain\x64\Debug\RockPaperScissorMain.exe

@@ -1,0 +1,3 @@
+[X] eat
+[V] work
+[X] run
